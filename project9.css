@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .homepage {
+    color: #333;
+  }
+  
+  .header {
+    background-color: white;
+    color:  black;
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight:800;
+  }
+  
+  .services, .about, .contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .service-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    background-color: floralwhite;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  #hero{
+     height: 200px;  
+     padding-top: 20px;
+  }
+  
+  
+  #hero .h-p{
+    padding-left: 38%;
+  }
+  #hero .h-p p{
+    padding-right: 60%;
+    font-weight: 600;
+    margin-top: 5%;
+  }
+  #hero .h-p button{
+    margin-left: 120px;
+    margin-top: 1%;
+    background-color: red;
+    /* text-decoration: none; */
+  }
+  #hero button a{
+     text-decoration: none;
+     color: #f1f1f1;
+  }

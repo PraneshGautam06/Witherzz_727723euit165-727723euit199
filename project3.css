@@ -1,0 +1,9 @@
+.one{
+    background-color: blue;
+}
+.two{
+    background-color: green;
+    padding-left: 50%;
+    height: 100px;
+    width: 50px;
+}
